@@ -1,6 +1,8 @@
 name: Process Skill Submission
 
 on:
+  push:
+    branches: [main]
   issues:
     types: [labeled]
 
